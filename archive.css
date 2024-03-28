@@ -1,0 +1,264 @@
+.about {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    position: fixed;
+    top: 45px;
+    left: 30px;
+    margin: 20px; /* Optional margin for better readability */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.home {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    position: fixed;
+    top: 80px;
+    left: 30px;
+    margin: 20px; /* Optional margin for better readability */
+    transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.about:hover,
+.home:hover {
+    color: rgb(22, 113, 170); /* Change color on hover */
+}
+
+
+      body {
+          margin: 0;
+          padding: 0;
+          overflow-x: hidden; /* Hides horizontal scrollbar */
+          display: flex;
+          justify-content: center; /* Centers the flex container horizontally */
+          align-items: center; /* Centers the flex container vertically */
+          min-height: 100vh; /* Makes the flex container at least the height of the viewport */
+      }
+      
+      .flex-container {
+          display: flex;
+          overflow-x: auto; /* Enable horizontal scrolling */
+          width: 100vw; /* Takes up entire viewport width */
+      }
+      
+      .flex-item {
+          flex: 0 0 auto; /* Prevents shrinking or growing of items */
+          min-width: 100vw; /* Makes each item take up the entire viewport width */
+          height: 100vh; /* Makes each item take up the entire viewport height */
+          margin-right: -110px;
+      }
+      
+      .flex-item img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: contain; /* Ensures the image covers the entire container */
+      }
+
+      .flex-text1{
+        font-family: monospace;
+        font-size: 14px;
+        letter-spacing: 4px;
+        margin-top: 47%; /* Adjust this value to position it slightly above the bottom */
+        margin-left: -8%;
+        color: rgb(0, 0, 0);
+      }
+
+      .flex-text{
+        font-family: monospace;
+        font-size: 14px;
+        letter-spacing: 4px;
+        margin-top: 47%; /* Adjust this value to position it slightly above the bottom */
+        margin-left: -19%;
+      }
+
+    .flex-item65 {
+        flex: 0 0 auto; /* Prevents shrinking or growing of items */
+        min-width: 100vw; /* Makes each item take up the entire viewport width */
+        height: 100vh; /* Makes each item take up the entire viewport height */
+        margin-left: -950px;
+    }
+    
+    .flex-item65 img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain; /* Ensures the image covers the entire container */
+    }
+
+    .flex-text65{
+      font-family: monospace;
+      font-size: 14px;
+      letter-spacing: 4px;
+      margin-top: 47%; /* Adjust this value to position it slightly above the bottom */
+      margin-left: -87%;
+      color: rgb(0, 0, 0);
+    }
+
+    .flex-item71 {
+        flex: 0 0 auto; /* Prevents shrinking or growing of items */
+        min-width: 100vw; /* Makes each item take up the entire viewport width */
+        height: 100vh; /* Makes each item take up the entire viewport height */
+        margin-left: -500px;
+    }
+    
+    .flex-item71 img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain; /* Ensures the image covers the entire container */
+    }
+
+    .flex-text71{
+      font-family: monospace;
+      font-size: 14px;
+      letter-spacing: 4px;
+      margin-top: 47%; /* Adjust this value to position it slightly above the bottom */
+      margin-left: -63%;
+      color: rgb(0, 0, 0);
+    }
+
+    .flex-item73 {
+        flex: 0 0 auto; /* Prevents shrinking or growing of items */
+        min-width: 100vw; /* Makes each item take up the entire viewport width */
+        height: 100vh; /* Makes each item take up the entire viewport height */
+        margin-left: -350px;
+    }
+    
+    .flex-item73 img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain; /* Ensures the image covers the entire container */
+    }
+
+    .flex-text73{
+      font-family: monospace;
+      font-size: 14px;
+      letter-spacing: 4px;
+      margin-top: 47%; /* Adjust this value to position it slightly above the bottom */
+      margin-left: -50%;
+      color: rgb(0, 0, 0);
+    }
+
+    .flex-item74 {
+        flex: 0 0 auto; /* Prevents shrinking or growing of items */
+        min-width: 100vw; /* Makes each item take up the entire viewport width */
+        height: 100vh; /* Makes each item take up the entire viewport height */
+        margin-left: -520px;
+    }
+    
+    .flex-item74 img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: contain; /* Ensures the image covers the entire container */
+    }
+
+    .flex-text74{
+      font-family: monospace;
+      font-size: 14px;
+      letter-spacing: 4px;
+      margin-top: 47%; /* Adjust this value to position it slightly above the bottom */
+      margin-left: -62%;
+      color: rgb(0, 0, 0);
+    }
+
+    .flex-text99{
+        font-family: monospace;
+        font-size: 14px;
+        letter-spacing: 4px;
+        margin-top: 47%; /* Adjust this value to position it slightly above the bottom */
+        margin-left: -15%;
+        color: rgb(0, 0, 0);
+      }
+
+      .boujee-text {
+        --bg-size: 400%;
+        --color-one: hsl(217, 100%, 14%);
+        --color-two: hsl(219, 100%, 71%);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 80px;
+        letter-spacing: -3px;
+        background: linear-gradient(
+            90deg,
+            var(--color-one),
+            var(--color-two),
+            var(--color-one)
+        )
+        0 0 / var(--bg-size) 100%;
+        color: transparent;
+        background-clip: text;
+        position: fixed;
+        top: 0;
+        right: 0;
+        padding: 30px;
+        margin: 20px;
+        margin-top: 22px;
+        margin-right: 20px;
+        z-index: 9999; /* Ensure it's on top of other content */
+    }
+      
+      @media (prefers-reduced-motion: no-preference) {
+        .boujee-text {
+          animation: move-bg 8s linear infinite;
+        }
+        @keyframes move-bg {
+          to {
+            background-position: var(--bg-size) 0;
+          }
+        }
+      }
+
+
+
+
+
+      body {
+        opacity: 0;
+        animation: fade-in 2s forwards; /* Animation to gradually fade in the container */
+      }
+      
+      @keyframes fade-in {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      
+      .header,
+      .image-container {
+        opacity: 0;
+        animation: fade-in-delayed 2s forwards; /* Animation to gradually fade in the elements */
+      }
+      
+      @keyframes fade-in-delayed {
+        from {
+          opacity: 0;
+          transform: translateY(20px); /* Optional: You can add a slight animation effect */
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      .begin{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 30px;
+        text-decoration: none;
+        color: black;
+        margin-top: 400px;
+        margin-left: 175px;
+        transition: color 0.3s ease; /* Smooth transition for color change */
+      }
+
+    
+    .begin:hover {
+        color: rgb(22, 113, 170); /* Change color on hover */
+    }

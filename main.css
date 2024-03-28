@@ -1,0 +1,92 @@
+.container {
+    display: flex;
+  }
+  
+  .header {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .image-container {
+    flex: 1;
+    text-align: right;
+  }
+  
+  h1 {
+    font-size: 150px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: -6px;
+    margin: 0;
+    transform: translateY(60%);
+    margin-left: 3%;
+    
+  }
+  
+  h2 {
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0px;
+    margin: 0;
+    transform: translateY(70%);
+    transition: color 0.3s ease; /* Add transition for smooth color change */
+    margin-left: 3%;
+  }
+  
+  h3 {
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 0px;
+    margin: 0;
+    transform: translateY(120%);
+    margin-left: 3%;
+  }
+  
+  .image-container img {
+    width: 85%;
+    height: auto;
+  }
+  
+  .header-link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .header-link:hover h2 {
+    color: rgb(22, 113, 170); /* Change color on hover */
+    transition: color 0.3s ease; /* Add transition for smooth color change */
+  }
+
+  .container {
+    opacity: 0;
+    animation: fade-in 2s forwards; /* Animation to gradually fade in the container */
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .header,
+  .image-container {
+    opacity: 0;
+    animation: fade-in-delayed 2s forwards; /* Animation to gradually fade in the elements */
+  }
+  
+  @keyframes fade-in-delayed {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* Optional: You can add a slight animation effect */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
+  
+  
